@@ -9,14 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
     @vite("resources/css/app.css")
 </head>
 <body>
 
-    <!-- NAV BAR -->
+    <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><b>Ecommerce</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,28 +60,85 @@
 
     <!-- CATEGORIES NAVBAR -->
 
-    <ul class="catnav nav nav-tabs bg-dark navbar-dark">
-        <li class="nav-item ms-3">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item ms-3">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item ms-3">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item ms-3">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item ms-3">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item ms-3">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item ms-3">
-            <a class="nav-link" aria-current="page" href="#">Active</a>
-        </li>
-    </ul>
+        <ul class="catnav nav nav-tabs bg-dark navbar-dark">
+            <li class="nav-item ms-3">
+                 <a class="nav-link active" aria-current="page" href="#">PLACEHOLDER</a>
+            </li>
+            <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
+            </li>
+            <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
+            </li>
+            <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
+            </li>
+            <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
+            </li>
+            <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
+            </li>
+            <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
+            </li>
+        </ul>
+
+    <!-- CAROUSEL -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{{ URL::to('/') }}/imgs/img1.png" class="d-block w-100" alt="img2">
+            </div>
+            <div class="carousel-item">
+                <img src="{{ URL::to('/') }}/imgs/img2.png" class="d-block w-100" alt="img3">
+            </div>
+            <div class="carousel-item">
+                <img src="{{ URL::to('/') }}/imgs/img3.png" class="d-block w-100" alt="img1">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- PRODUCTS -->
+
+    <div class="popular">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top" alt="item1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top" alt="item1">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
