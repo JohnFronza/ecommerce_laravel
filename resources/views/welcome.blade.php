@@ -12,10 +12,10 @@
     @vite("resources/css/app.css")
 </head>
 <body>
-
+<div class="sticky-top">
     <!-- NAVBAR -->
 
-    <nav class="navbar sticky-top navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><b>Ecommerce</b></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
 
         <ul class="catnav nav nav-tabs bg-dark navbar-dark">
             <li class="nav-item ms-3">
-                 <a class="nav-link active" aria-current="page" href="#">PLACEHOLDER</a>
+                 <a class="nav-link active" aria-current="page" href="#"><b>PLACEHOLDER</b></a>
             </li>
             <li class="nav-item ms-3">
                 <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
@@ -83,7 +83,7 @@
                 <a class="nav-link" aria-current="page" href="#"><b>PACEHOLDER</b></a>
             </li>
         </ul>
-
+</div>
     <!-- CAROUSEL -->
 
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -118,27 +118,94 @@
     <div class="popular">
         <div class="row">
             <div class="col-sm-2">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top" alt="item1">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Titulo do produto</h5>
+                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
+                        <a href="#" class="btn btn-dark">Mais informações</a>
                     </div>
                 </div>
             </div>
             <div class="col-sm-2">
-                <div class="card" style="width: 18rem;">
-                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top" alt="item1">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Titulo do produto</h5>
+                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
+                        <a href="#" class="btn btn-dark">Mais informações</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo do produto</h5>
+                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
+                        <a href="#" class="btn btn-dark">Mais informações</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo do produto</h5>
+                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
+                        <a href="#" class="btn btn-dark">Mais informações</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo do produto</h5>
+                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
+                        <a href="#" class="btn btn-dark">Mais informações</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="card border-0" style="width: 18rem;">
+                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
+                    <div class="card-body">
+                        <h5 class="card-title">Titulo do produto</h5>
+                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
+                        <a href="#" class="btn btn-dark">Mais informações</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     
+    <!-- FOOTER -->
+
+    <footer class="bg-dark text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Footer text</h5>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Footer text</h5>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                    molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                    aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2020 Copyright: MDBootstrap.com
+        </div>
+    </footer>
 </body>
 </html>
