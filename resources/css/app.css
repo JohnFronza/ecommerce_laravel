@@ -64,7 +64,12 @@
     height: 353px;
     width: 288px;
 }
-
+.card img {
+    max-height: 288px;
+    min-height: 288px;
+    max-width: 288px;
+    min-width: 288px;
+}
 /* FOOTER */
 
 footer {
