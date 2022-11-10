@@ -1,6 +1,6 @@
 /* NAVBAR */
 .login {
-    right: 0;
+    margin: auto;
 }
 
 .searchbar {
@@ -76,3 +76,13 @@ footer {
     color: white;
 }
 
+/* REGISTER */
+
+    .window {
+        margin: auto;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: aqua;
+    }
