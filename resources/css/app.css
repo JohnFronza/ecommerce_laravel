@@ -1,6 +1,5 @@
 /* NAVBAR */
 .login {
-    position: absolute;
     right: 0;
 }
 
@@ -29,6 +28,8 @@
 
 .carousel {
     margin-top: 50px;
+    margin-bottom: 150px;
+
 }
 .carousel-inner{
   width:100%;
@@ -39,9 +40,6 @@
 /* PRODUCTS */
 
 .popular {
-    margin-top:150px;
-}
-.popular .row {
     margin: auto;
 }
 
@@ -63,6 +61,7 @@
 .card {
     height: 353px;
     width: 288px;
+    margin: auto;
 }
 .card img {
     max-height: 288px;

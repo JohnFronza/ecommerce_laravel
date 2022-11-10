@@ -115,9 +115,8 @@
 
     <!-- PRODUCTS -->
 
-    <div class="popular">
-        <div class="row">
-            <div class="col-sm-2">
+        <div class="popular row row-cols-3">
+            <div class="col-sm-3">
                 <div class="card border-0" style="width: 18rem;">
                     <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
                     <div class="card-body">
@@ -127,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="card border-0" style="width: 18rem;">
                     <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
                     <div class="card-body">
@@ -137,7 +136,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="card border-0" style="width: 18rem;">
                     <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
                     <div class="card-body">
@@ -147,27 +146,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <div class="card border-0" style="width: 18rem;">
-                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
-                    <div class="card-body">
-                        <h5 class="card-title">Titulo do produto</h5>
-                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
-                        <a href="#" class="btn btn-dark">Mais informações</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2">
-                <div class="card border-0" style="width: 18rem;">
-                    <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
-                    <div class="card-body">
-                        <h5 class="card-title">Titulo do produto</h5>
-                        <p class="card-text">Preço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produtoPreço do produto</p>
-                        <a href="#" class="btn btn-dark">Mais informações</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-2">
+            <div class="col-sm-3">
                 <div class="card border-0" style="width: 18rem;">
                     <img src="{{ URL::to('/') }}/imgs/img1.png" class="card-img-top rounded-0" alt="item1">
                     <div class="card-body">
@@ -178,7 +157,6 @@
                 </div>
             </div>
         </div>
-    </div>
     
     <!-- FOOTER -->
 
